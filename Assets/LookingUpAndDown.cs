@@ -16,6 +16,7 @@ public class LookingUpAndDown : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        transform.rotation = Quaternion.Euler(0, 90, 0);
     }
 
     private void Update()
